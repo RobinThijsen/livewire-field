@@ -2,6 +2,7 @@
 
 namespace RobinThijsen\LivewireFields;
 
+use RobinThijsen\LivewireFields\Livewire\Fields\Input;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -16,6 +17,6 @@ class LivewireFieldsServiceProvider extends PackageServiceProvider
          */
         $package->name('livewire-fields')
             ->hasConfigFile()
-            ->hasViews();
+            ->hasViewComponents('fields', Input::class);
     }
 }
