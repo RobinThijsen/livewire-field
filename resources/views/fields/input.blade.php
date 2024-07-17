@@ -15,16 +15,4 @@
         <span>{{ $message }}</span>
     @enderror
 
-    @script
-        <script>
-            let input = document.getElementById('@js($id)');
-
-            if (input) {
-                input.addEventListener('change', function (e) {
-                    $wire.set('value', e.target.value);
-                });
-            }
-        </script>
-    @endscript
-
 </fieldset>

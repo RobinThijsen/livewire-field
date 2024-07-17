@@ -2,7 +2,7 @@
 
 namespace RobinThijsen\LivewireFields;
 
-use RobinThijsen\LivewireFields\Livewire\Fields\Input;
+use RobinThijsen\LivewireFields\Views\Fields\Input;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
